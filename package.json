@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "my-nextron-app",
+  "description": "My application description",
+  "version": "1.0.0",
+  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@fontsource/public-sans": "^4.5.12",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/lab": "^5.0.0-alpha.129",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0",
+    "ldapjs": "^3.0.2",
+    "styled-components": "^6.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.0",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "electron": "^21.3.3",
+    "electron-builder": "^23.6.0",
+    "next": "^12.3.4",
+    "nextron": "^8.5.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "typescript": "^4.9.4"
+  }
+}

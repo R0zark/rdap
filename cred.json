@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Conexion",
+        "url": "127.0.0.1",
+        "user": "admin",
+        "port": "1389",
+        "dc": "dc=vet,dc=org",
+        "password": "admin"
+    }
+]
