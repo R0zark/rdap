@@ -1,6 +1,6 @@
-<p align="center"><img src="https://i.imgur.com/flcMvDC.png"></p>
+<h1>RDAP - React Client for LDAP</h1>
 
-## Usage
+This is a React application built using Nextron that connects to LDAP (Lightweight Directory Access Protocol) servers. The app allows users to authenticate and interact with the LDAP directory.
 
 ### Create an App
 
